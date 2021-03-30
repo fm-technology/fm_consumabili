@@ -1,0 +1,81 @@
+h1{
+    text-align:center;
+    color:red;
+    font-size: 200%}
+h3{
+    text-align:center;
+    color:red;
+    font-size: 100%}
+
+table{
+    width: 500px;
+    text-align:center;
+    margin:0 auto;
+    border-spacing: 2px;
+    border: 2px solid grey;
+    font-variant: normal;
+}
+.header{
+
+    background:red;
+    color:white;
+    text-align:center
+}
+th {
+    height: 70px;
+}
+td{
+    border: 2px solid grey;
+    text-align: center;
+}
+
+form{
+    text-align:center;
+}
+select {
+    width: 30%;
+    padding: 16px 20px;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+}
+label{
+    font-family: "Arial Black",serif;
+    padding: 16px 20px;
+}
+
+#colore{
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p{
+    text-align:center;
+    color: #000000;
+    font-size: 150%;
+    font-family: "Times New Roman", serif;
+    }
+
+#opt{
+    text-align:center;
+
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
